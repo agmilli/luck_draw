@@ -1,0 +1,43 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,form,p,ul,li,menu,time{margin:0;padding:0;font-weight: normal;}
+i,b,strong,em{font-style: normal;font-weight: normal;}
+body{max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;font-size: 0.28rem;}
+ol, ul { list-style: none; }
+a,img { border: none; text-decoration:none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* 重置安卓Pad下面input焦点状态白底的样式 */  
+input{
+   -webkit-user-modify: read-write-plaintext-only;
+   -webkit-tap-highlight-color:#d7e7f5;
+   -webkit-appearance: none;
+}
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{
+	border:none;padding:0;
+}
+.qf:after{content: " ";height: 0;width: 0;clear: both;overflow: hidden;}
+.qf{*zoom:1;}
+.fl{float: left;}
+.fr{float: right;}
+.hd{float: hidden;}
+.auto{margin-right: auto;margin-left: auto;}
+
+/*// */
+
+// @media screen and (min-width: 320px) {html{font-size:42.667px;}}
+// @media screen and (min-width: 360px) {html{font-size:48px;}}
+// @media screen and (min-width: 375px) {html{font-size:50px;}}
+// @media screen and (min-width: 400px) {html{font-size:53.3333px;}}
+// @media screen and (min-width: 414px) {html{font-size:55.2px;}}
+// @media screen and (min-width: 440px) {html{font-size:58.66px;}}
+// @media screen and (min-width: 480px) {html{font-size:64px;}}
+// @media screen and (min-width: 520px) {html{font-size:69.33px;}}
+// @media screen and (min-width: 560px) {html{font-size:74.66px;}}
+// @media screen and (min-width: 600px) {html{font-size:80px;}}
+// @media screen and (min-width: 640px) {html{font-size:85.33px;}}
+// @media screen and (min-width: 680px) {html{font-size:90.66px;}}
+// @media screen and (min-width: 750px) {html{font-size:100px;}}
+/*@media screen and (min-width: 800px) {html{font-size:106.667px;}}
+@media screen and (min-width: 960px) {html{font-size:128px;}}*/

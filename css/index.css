@@ -1,0 +1,213 @@
+@charset "utf-8";
+.icon {
+  background: url(../images/icon.png) no-repeat;
+  background-size: 3.96rem 1.22rem;
+}
+header {
+  background-color: #1a83d1;
+  height: 3.43rem;
+}
+header .header_top {
+  height: 1.12rem;
+  width: 100%;
+}
+header .header_top .dope {
+  width: 0.45rem;
+  height: 0.45rem;
+  float: right;
+  margin-top: 0.22rem;
+  margin-right: 0.3rem;
+  position: relative;
+}
+header .header_top .dope .amount {
+  position: absolute;
+  width: 0.15rem;
+  height: 0.15rem;
+  background: red;
+  border-radius: 0.07rem;
+  right: 0;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.15rem;
+  color: #fff;
+}
+header .head_portrait {
+  height: 2.62rem;
+  width: 100%;
+  text-align: center;
+}
+header .head_portrait .head_img {
+  width: 1.45rem;
+  height: 1.45rem;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 0.725rem;
+}
+header .head_portrait p {
+  color: #fff;
+  font-size: 0.28rem;
+  font-family: "黑体";
+  margin-top: 0.16rem;
+}
+section {
+  height: 2.4rem;
+  background: #1175bf;
+  color: #fff;
+}
+section .assets h1 {
+  height: 0.60rem;
+  line-height: 0.57rem;
+  font-size: 0.26rem;
+}
+section .assets span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.5rem;
+}
+section .assets .line {
+  height: 0.5rem;
+  margin: 0.34rem 0.3rem 0 0;
+  width: 1px;
+  background: #ffffff;
+}
+section .assets .available {
+  display: flex;
+  justify-content: flex-start;
+  height: 1.2rem;
+  border-bottom: 1px solid #fff;
+}
+section .assets .available .available_left {
+  width: 3.18rem;
+  margin-left: 0.3rem;
+}
+section .assets .available .available_right {
+  width: 2.56rem;
+}
+section .assets .total {
+  display: flex;
+  flex: 1;
+}
+section .assets .total .total_left {
+  width: 3.18rem;
+  margin-left: 0.3rem;
+}
+section .assets .total .total_right {
+  width: 3.18rem;
+}
+.money {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.31rem;
+}
+.money a {
+  display: block;
+  width: 2.16rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
+  text-align: center;
+  border-radius: 0.07rem;
+}
+.money a:first-child {
+  border: 0.01rem solid #33abf2;
+  color: #33abf2;
+}
+.money a:last-child {
+  background: #fb4b24;
+  color: #fff;
+}
+/*apply*/
+.apply {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 1.1rem;
+  border-top: 1px solid #ece3e3;
+}
+.apply .apply_main {
+  display: flex;
+}
+.apply .apply_main .box {
+  border-bottom: 1px solid #ece3e3;
+  height: 2.07rem;
+  text-align: center;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apply .apply_main .box h1 {
+  width: 0.74rem;
+  height: 0.74rem;
+  margin: 0 auto;
+}
+.apply .apply_main .box .app_bg1 {
+  background-position: left bottom;
+}
+.apply .apply_main .box .app_bg2 {
+  background-position: -0.8rem bottom;
+}
+.apply .apply_main .box .app_bg3 {
+  background-position: -1.6rem bottom;
+}
+.apply .apply_main .box .app_bg4 {
+  background-position: -2.4rem bottom;
+}
+.apply .apply_main .box .app_bg5 {
+  background-position: -3.24rem bottom;
+}
+.apply .apply_main .box p {
+  padding-top: 0.13rem;
+}
+.apply .apply_main .box:nth-child(2) {
+  border-left: 0.01rem solid #ece3e3;
+  border-right: 0.01rem solid #ece3e3;
+}
+/*footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1.0rem;
+  background: #f6f6f8;
+  width: 100%;
+  padding-bottom: 0.1rem;
+}
+footer ul {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.17rem;
+  border-top: 0.01rem solid #ccc;
+}
+footer ul li {
+  flex: 1;
+  text-align: center;
+}
+footer ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #8d8d8d;
+}
+footer ul li a p {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 auto;
+}
+footer ul li:first-child p {
+  background-position: -0.8rem top;
+}
+footer ul li:nth-child(2) p {
+  background-position: -1.5rem top;
+}
+footer ul li:nth-child(3) p {
+  background-position: -2.2rem top;
+}
+footer ul li:nth-child(4) p {
+  background-position: -2.8rem top;
+}
+footer ul li:last-child p {
+  background-position: -3.5rem 0.01rem;
+}

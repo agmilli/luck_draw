@@ -1,0 +1,154 @@
+@charset "utf-8";
+.border_bottom_active {
+  border-bottom: 0.01rem solid #1a83d1;
+}
+.none {
+  display: none;
+}
+html,
+body,
+.mobile {
+  color: #fff;
+  font-size: 0.32rem;
+  font-family: "微软雅黑";
+  width: 100%;
+}
+.mobile {
+  background: #1a83d1;
+}
+header {
+  background-color: #1a83d1;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  display: flex;
+  flex: 1;
+}
+header a {
+  display: block;
+  width: 0.92rem;
+  height: 100%;
+  text-align: center;
+  font-size: 0.60rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: "宋体";
+}
+header h1 {
+  text-align: center;
+  font-size: 0.32rem;
+  flex: 1;
+  margin-left: -0.6rem;
+}
+section {
+  padding-bottom: 1rem;
+  width: 100%;
+  height: 10.09rem;
+  overflow: hidden;
+  position: relative;
+}
+section .w_standard {
+  width: 300%;
+  height: 10.09rem;
+  background: #1a83d1;
+  position: absolute;
+  transition: all .5s;
+  left: 0;
+}
+article {
+  width: 33.33%;
+  float: left;
+}
+article .bigbox {
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+  margin-top: 1.8rem;
+}
+article .bigbox .box {
+  width: 6.66rem;
+  height: 6.66rem;
+  margin: 0 auto;
+  border: 0.02rem solid #fff;
+  border-radius: 3.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article .bigbox .box .minbox {
+  width: 5.91rem;
+  height: 5.91rem;
+  box-sizing: border-box;
+  border: 0.19rem solid #fff;
+  border-radius: 2.96rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 0.4rem;
+}
+article .bigbox .box .minbox h3 {
+  font-size: 1.4rem;
+  margin-top: -1rem;
+}
+article .list {
+  width: 4.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-size: 0.28rem;
+  height: 3.4rem;
+}
+article .list ul {
+  height: 1.36rem;
+}
+article .list ul li {
+  display: flex;
+  margin-bottom: 0.28rem;
+}
+article .list ul li h4 {
+  flex: 1;
+}
+article .list ul li span {
+  display: block;
+}
+article .recharge {
+  margin-top: 2rem;
+  height: 3.40rem;
+}
+article .recharge h5 {
+  text-align: center;
+}
+article .recharge p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+}
+article .recharge p a {
+  display: block;
+  width: 2.2rem ;
+  height: 0.66rem;
+  border: 0.01rem solid #fff;
+  border-radius: 0.05rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.66rem;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 1.14rem;
+}
+.tab a {
+  display: block;
+  width: 0.21rem;
+  height: 0.21rem;
+  border: 0.01rem solid #fff;
+  border-radius: 0.11rem;
+  margin-right: 0.36rem;
+}
+.tab_active {
+  background: #fff;
+}
